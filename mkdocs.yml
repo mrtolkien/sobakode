@@ -1,10 +1,10 @@
 ---
-site_name: Tolklean Code
+site_name: Tolkode
 site_description: Write better code
-site_url: https://mrtolkien.github.io/tolklean-code/
+site_url: https://mrtolkien.github.io/tolkode
 
-repo_name: mrtolkien/tolklean-code
-repo_url: https://github.com/mrtolkien/tolklean-code
+repo_name: mrtolkien/tolkode
+repo_url: https://github.com/mrtolkien/tolkode
 
 theme:
   name: material
