@@ -1,0 +1,49 @@
+---
+site_name: Tolklean Code
+site_description: Write better code
+site_url: https://mrtolkien.github.io/tolklean-code/
+
+repo_name: mrtolkien/tolklean-code
+repo_url: https://github.com/mrtolkien/tolklean-code
+
+theme:
+  name: material
+  # Re-using some k8s@home assets to start!
+  # logo: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
+  # favicon: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrtolkien/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TolkiCasts
+
+nav:
+  - Introduction: index.md
+  - Git:
+      - Prerequisite: 1-workstation/0-prerequisite.md
+      - Tools: 1-workstation/1-tools.md
+      - Git: 1-workstation/2-git-repo.md
+      - Age + SOPS: 1-workstation/3-age-sops.md
