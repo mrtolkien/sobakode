@@ -1,8 +1,8 @@
 # Sobakode
 
-![Sobakode Logo](docs/assets/sobakode.png)
+![Sobakode Logo](docs/assets/sobakode_v2.png)
 
-Stop the spaghetti code and write [soba](https://en.wikipedia.org/wiki/Soba) code
+Stop the spaghetti. Write [soba](https://en.wikipedia.org/wiki/Soba) code
 
 [Sobakode](<https://blog.tolki.dev/sobakode/>)
 

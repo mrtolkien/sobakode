@@ -8,29 +8,38 @@ repo_url: https://github.com/mrtolkien/sobakode
 
 theme:
   name: material
-  logo: assets/sobakode.png
-  favicon: assets/sobakode.png
+  logo: assets/sobakode_v2.png
+  favicon: assets/sobakode_v2.png
   icon:
     repo: fontawesome/brands/github-alt
   features:
-    - navigation.sections
+    - navigation.instant
     - navigation.tracking
+    - navigation.indexes
+
+    # Insiders only but would like to use it
+    - toc.follow
+
     - search.highlight
     - search.share
     - search.suggest
+
   palette:
     - scheme: slate
-      primary: deep purple
+      primary: brown
       accent: orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
     - scheme: default
-      primary: deep purple
+      primary: brown
       accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:
@@ -41,8 +50,17 @@ extra:
 
 nav:
   - Introduction: index.md
-  # - Git:
-  #     - Prerequisite: 1-workstation/0-prerequisite.md
-  #     - Tools: 1-workstation/1-tools.md
-  #     - Git: 1-workstation/2-git-repo.md
-  #     - Age + SOPS: 1-workstation/3-age-sops.md
+  - Git:
+      # - git/index.md
+      - Branches: 1-git/1-branches.md
+      - Pull Requests: 1-git/2-PRs.md
+      - Releases: 1-git/3-releases.md
+
+  - Tests:
+      - Why: 2-tests/1-why.md
+      - How: 2-tests/1-how.md
+
+  - Python:
+      # - python/index.md
+      - Environment: python/environment.md
+      - Packaging: python/packaging.md
