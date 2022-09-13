@@ -1,14 +1,13 @@
 ---
-site_name: Tolkode
-site_description: Write better code
-site_url: https://mrtolkien.github.io/tolkode
+site_name: Sobakode
+site_description: No more code spaghetti
+site_url: https://mrtolkien.github.io/sobakode
 
-repo_name: mrtolkien/tolkode
-repo_url: https://github.com/mrtolkien/tolkode
+repo_name: mrtolkien/sobakode
+repo_url: https://github.com/mrtolkien/sobakode
 
 theme:
   name: material
-  # Re-using some k8s@home assets to start!
   # logo: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
   # favicon: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
   icon:
@@ -20,15 +19,15 @@ theme:
     - search.share
     - search.suggest
   palette:
-    - scheme: default
-      primary: blue
-      accent: indigo
+    - scheme: slate
+      primary: deep purple
+      accent: orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-    - scheme: slate
-      primary: blue
-      accent: indigo
+    - scheme: default
+      primary: deep purple
+      accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -42,8 +41,8 @@ extra:
 
 nav:
   - Introduction: index.md
-  - Git:
-      - Prerequisite: 1-workstation/0-prerequisite.md
-      - Tools: 1-workstation/1-tools.md
-      - Git: 1-workstation/2-git-repo.md
-      - Age + SOPS: 1-workstation/3-age-sops.md
+  # - Git:
+  #     - Prerequisite: 1-workstation/0-prerequisite.md
+  #     - Tools: 1-workstation/1-tools.md
+  #     - Git: 1-workstation/2-git-repo.md
+  #     - Age + SOPS: 1-workstation/3-age-sops.md
