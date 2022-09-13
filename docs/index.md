@@ -2,7 +2,7 @@
 
 ![Logo](assets/sobakode.png)
 
-Stop the spaghetti code. Write [soba](https://en.wikipedia.org/wiki/Soba) code.
+Stop the [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). Write [soba](https://en.wikipedia.org/wiki/Soba) code.
 
 ## TL;DR
 
