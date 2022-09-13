@@ -29,6 +29,6 @@ Specs should be translated into tests as early as possible in the development pr
 
 ### I can't write tests for this
 
-As I often say in fighting games: **Skill Issue**
+As we often say in fighting games: **Skill Issue**
 
 There are test frameworks for the full stack, from backend to frontend. Learning how to use them is usually not very hard and you will quickly reap the benefits.
