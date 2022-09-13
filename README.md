@@ -1,6 +1,6 @@
 # Sobakode
 
-![Sobakode Logo](docs/assets/sobakode.png)
+![Sobakode Logo](docs/assets/sobakode_logo.png)
 
 Stop the spaghetti. Write [soba](https://en.wikipedia.org/wiki/Soba) code
 
