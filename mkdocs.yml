@@ -8,8 +8,8 @@ repo_url: https://github.com/mrtolkien/sobakode
 
 theme:
   name: material
-  logo: assets/sobakode_v2.png
-  favicon: assets/sobakode_v2.png
+  logo: assets/sobakode.png
+  favicon: assets/sobakode.png
   icon:
     repo: fontawesome/brands/github-alt
   features:
