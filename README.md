@@ -1,8 +1,16 @@
-# Tolklean-code
+# Sobakode
 
-Tolki's coding conventions, focused on productivity and code quality
+Stop the spaghetti code and write [soba](https://en.wikipedia.org/wiki/Soba) code:
 
-## Building this repo
+[Sobakode](<https://blog.tolki.dev/sobakode/>)
+
+## Why soba?
+
+I like soba. It tastes good.
+
+I can also use sobako to cook [French galettes](<https://en.wikipedia.org/wiki/Kaletez>) so there's that.
+
+## Using this repo locally
 
 ```shell
 mkdocs serve

@@ -8,8 +8,8 @@ repo_url: https://github.com/mrtolkien/sobakode
 
 theme:
   name: material
-  # logo: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
-  # favicon: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
+  logo: assets/sobakode.png
+  favicon: assets/sobakode.png
   icon:
     repo: fontawesome/brands/github-alt
   features:
